@@ -7,13 +7,4 @@ AzureとLINE APIを活用して、龍谷大学のウェブサイトから取得�
 **システムアーキテクチャ図**  
 混雑状況のアーキテクチャを次に示します。
 ![image](https://github.com/user-attachments/assets/7b772805-cb69-404f-a52b-d3aee875e2cd)
-git clone https://github.com/your-repo/eggplant.git
-必要なAzureサービスを設定し、ngrokをインストールします。
-ローカル環境でサーバーを起動し、ngrokで外部アクセスを可能にします。
-ライセンス
-本プロジェクトはMITライセンスのもとで公開されています。詳細はLICENSEファイルを参照してください。
 
-開発者
-あなたの名前
-連絡先
-プロジェクトに関する質問や提案がありましたら、上記の連絡先までご連絡ください。
