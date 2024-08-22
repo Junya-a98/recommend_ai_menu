@@ -7,4 +7,4 @@ AzureとLINE APIを活用して、龍谷大学のウェブサイトから取得�
 **システムアーキテクチャ図**  
 混雑状況のアーキテクチャを次に示します。
 ![image](https://github.com/user-attachments/assets/7b772805-cb69-404f-a52b-d3aee875e2cd)
-
+大学の
