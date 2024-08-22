@@ -7,6 +7,7 @@ AzureとLINE APIを活用して、龍谷大学のウェブサイトから取得�
 **システムアーキテクチャ図**  
 混雑状況のアーキテクチャを次に示します。
 ![image](https://github.com/user-attachments/assets/7b772805-cb69-404f-a52b-d3aee875e2cd)
+混雑状況を取得するためのシステムアーキテクチャ図  
 azure functionを利用して大学のHPに対して、スクレイピングを行い食堂などの混雑状況を取得する。取得した情報を加工を行いLINEで発信を行う。
 ![image](https://github.com/user-attachments/assets/1f63a376-e308-4a81-b54c-61c5b714f183)
 
