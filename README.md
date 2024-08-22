@@ -13,4 +13,4 @@ azure functionを利用して大学のHPに対して、スクレイピングを�
 次にAIで食堂の推薦メニューをLINEで発信するシステムアーキテクチャ図を次に示します。
 ![image](https://github.com/user-attachments/assets/1f63a376-e308-4a81-b54c-61c5b714f183)
 AIによる推薦メニューの発信を行うシステムアーキテクチャ図
-
+Azure fuctionを使いスクレイピングを行い大学HPから食堂メニューを取ってきます。取得した食堂メニューをBLOBに保存します。次にLINE上でユーザーとのやり取りを行い推薦メニューを作成するプロントを作成します。AzureOpenAIがそのプロンプトをもとにクエリを作成し、Azure AI Searchにクエリを渡しました。AI SearchはBLOBからクエリの条件にあった情報をAzure OpenAIに渡します。Azure Open AIは受け取った情報とプロンプトから回答を生成しLINEでユーザに発信を行います。
